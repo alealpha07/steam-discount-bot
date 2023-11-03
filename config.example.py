@@ -1,1 +1,2 @@
-TOKEN="yourdiscordbottoken"
+TOKEN = "yourdiscordbottoken"
+LANGUAGE = "english"
