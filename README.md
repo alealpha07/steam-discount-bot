@@ -16,5 +16,18 @@ First of all you need to obtain a token for your discord bot, enable all intents
     - Future update will provide full docker support
 9. Use the command `!help` in a text channel on your discord server for details about how to use the bot
 
+### Docker Setup
+1. **Create Dockerfile**:
+   - Create a file called `config.py` similar to `config.example.py` and enter your configuration (API token and language of the news).
+3. **Build Docker Image**:
+   - Build your Docker image by running `docker-compose build`.
+4. **Run the Bot**:
+   - Start your bot using Docker with `docker-compose up -d`.
+5. **Check Logs**:
+   - Check the logs to ensure the bot is running correctly using `docker-compose logs`.
+6. **Stop the Bot**:
+   - When you need to stop your bot, do so with `docker-compose down`.
+7. Use the command `!help` in a text channel on your discord server for details about how to use the bot
+
 # Custom translation
 You can create custom translations by adding entries to the `translations.py` module as did for the already supported languages.
